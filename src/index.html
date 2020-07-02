@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta
+      name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
@@ -15,49 +17,49 @@
         <label for="surname">
           Surname:
           <input type="text"
-          name="surname"
-          required
-          id="surname"
-          autocomplete="off"
+            name="surname"
+            required
+            id="surname"
+            autocomplete="off"
           >
         </label>
         <br>
         <label for="name">
           Name:
           <input type="text"
-          name="name"
-          id="name"
-          required
-          autocomplete="off"
+            name="name"
+            id="name"
+            required
+            autocomplete="off"
           >
         </label>
         <br>
         <label for="age">
           How old are You?
           <input type="number"
-          name="age"
-          id="age"
-          value="12"
-          min="1"
-          max="100"
+            name="age"
+            id="age"
+            value="12"
+            min="1"
+            max="100"
           >
         </label>
         <br>
         <label for="birthday">
           Full date of birth:
           <input type="date"
-          name="birthday"
-          id="birthday"
+            name="birthday"
+            id="birthday"
           >
         </label>
         <br>
         <label for="terms">
           I accept the term of the agreement
           <input class="without-margin"
-          type="checkbox"
-          name="terms"
-          id="terms"
-          required
+            type="checkbox"
+            name="terms"
+            id="terms"
+            required
           >
         </label>
       </fieldset>
@@ -66,58 +68,61 @@
         <label for="email">
           E-mail:
           <input type="email"
-          name="email"
-          placeholder="email@example.com"
-          autocomplete="off"
-          id="email"
-          required
+            name="email"
+            placeholder="email@example.com"
+            autocomplete="off"
+            id="email"
+            required
           >
         </label>
         <br>
         <label for="password">
           Password:
           <input class="without-margin"
-          type="password"
-          name="password"
-          id="password"
-          autocomplete="off"
+            type="password"
+            name="password"
+            id="password"
+            autocomplete="off"
           >
         </label>
       </fieldset>
       <fieldset class="box">
         <legend>An interesting fact about you!</legend>
-        <label for="cats">
-          <div class="margined">
+        <div class="margined">
+          <label for="catsYes">
             Do you love cats?
             <input class="without-margin"
-            type="radio"
-            name="cats"
-            value="Yes"
-            id="cats"
+              type="radio"
+              name="cats"
+              value="Yes"
+              id="catsYes"
             >
-            Yes
+              Yes
+          </label>
+          <label for="catsNo">
             <input class="without-margin"
-            type="radio"
-            name="cats"
-            value="No"
+              type="radio"
+              name="cats"
+              value="No"
+              id="catsNo"
             >
-            No
-          </div>
-        </label>
+              No
+          </label>
+        </div>
         <label for="favcolor">
           What is your favorite color?
           <input type="color"
-          name="favcolor"
-          id="favcolor"
+            name="favcolor"
+            id="favcolor"
           >
         </label>
         <br>
         <label for="bedtime">
           What time do you go to bed?
           <input type="time"
-          step="1"
-          name="bedtime"
-          id="bedtime"
+            step="1"
+            name="bedtime"
+            id="bedtime"
           >
         </label>
         <br>
@@ -134,10 +139,10 @@
         <label for="workrate">
           How do you rate our work?
           <input class="without-margin"
-          type="range"
-          name="workrate"
-          id="workrate"
-          value="0"
+            type="range"
+            name="workrate"
+            id="workrate"
+            value="0"
           >
         </label>
       </fieldset>
@@ -147,9 +152,9 @@
           <label for="comments">
             Comments:
             <textarea name="comments"
-            minlength="3"
-            maxlength="100"
-            id="comments"
+              minlength="3"
+              maxlength="100"
+              id="comments"
             >
             </textarea>
           </label>
@@ -164,11 +169,11 @@
         </label>
       </fieldset>
       <input class="without-margin"
-      type="submit"
-      name="submit"
-      value="Submit"
-      onsubmit="onSubmit()"
-      required
+        type="submit"
+        name="submit"
+        value="Submit"
+        onsubmit="onSubmit()"
+        required
       >
     </form>
     <script type="text/javascript" src="./main.js"></script>
