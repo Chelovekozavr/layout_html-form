@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,MACE,kBACF,CAEA,KACE,kBACF,CAEA,UACE,kBACF,CAEA,gBACE,eACF","file":"style.f4a20113.css","sourceRoot":"..\\src","sourcesContent":["input {\n  margin-bottom: 10px;\n}\n\n.box {\n  margin-bottom: 20px;\n}\n\n.margined {\n  margin-bottom: 10px;\n}\n\n.without-margin {\n  margin-bottom: 0;\n}\n"]}
